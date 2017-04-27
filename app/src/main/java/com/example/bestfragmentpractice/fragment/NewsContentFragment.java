@@ -20,7 +20,7 @@ public class NewsContentFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        view=inflater.inflate(R.layout.news_content_fragment,container,false);
+       view=inflater.inflate(R.layout.news_content_fragment,container,false);
         return view;
     }
     public void refresh(String newTitle,String newConten){

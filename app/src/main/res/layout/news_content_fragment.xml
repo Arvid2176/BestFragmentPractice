@@ -14,11 +14,11 @@
         android:gravity="center"
         android:textSize="20sp"
         android:layout_height="wrap_content" />
-    <view
+    <View
         android:layout_width="match_parent"
         android:background="#000"
         android:layout_height="10dp">
-    </view>
+    </View>
     <TextView
         android:id="@+id/news_content"
         android:layout_width="match_parent"
